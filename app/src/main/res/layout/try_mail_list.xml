@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_layout_mail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="70dp"
+    android:maxHeight="70dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/list_iv_pict"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/list_tv_textpic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="25dp"
+                android:textColor="#FFF"/>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:minHeight="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_tv_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the Sender"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list_tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the Subject"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Content"
+            android:textSize="15dp"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/list_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 AM"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/list_iv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@android:drawable/star_off" />
+    </RelativeLayout>
+</LinearLayout>
