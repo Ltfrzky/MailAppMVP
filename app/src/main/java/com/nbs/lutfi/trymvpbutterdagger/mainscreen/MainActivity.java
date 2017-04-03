@@ -83,13 +83,9 @@ public class MainActivity extends AppCompatActivity implements MainScreenContrac
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_share) {
+        if (id == R.id.action_signout) {
             logout();
             return true;
-        }
-
-        if (id == android.R.id.home){
-//            finish();
         }
 
         return super.onOptionsItemSelected(item);
