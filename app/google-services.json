@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "322884359015",
+    "firebase_url": "https://inventtest-1659a.firebaseio.com",
+    "project_id": "inventtest-1659a",
+    "storage_bucket": "inventtest-1659a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322884359015:android:4128d333430c3720",
+        "android_client_info": {
+          "package_name": "com.nbs.lutfi.trymvpbutterdagger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322884359015-od14s0n0gtfqkc1gs3h492iv85q2lbk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YJsWkWS1uleUWszDyq8V-4UdBAg3YJY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

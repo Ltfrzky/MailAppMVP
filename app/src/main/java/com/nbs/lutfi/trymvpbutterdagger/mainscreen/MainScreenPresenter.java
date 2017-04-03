@@ -2,7 +2,6 @@ package com.nbs.lutfi.trymvpbutterdagger.mainscreen;
 
 import com.nbs.lutfi.trymvpbutterdagger.data.Post;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
